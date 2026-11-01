@@ -69,10 +69,11 @@ A native SwiftUI Mac target with a built-in CoreMediaIO camera extension is in
 [macos](macos/START%20HERE.md), based on the Windows receiver's connection,
 pairing, preview and background features. It uses the existing Quest protocol
 and requires no OBS. Source/project validation passes on Windows; native Mac
-compilation, signing and camera/call verification remain pending. The
-[Apple-silicon build kit](macos/dist/AlterEgoMR-Mac-AppleSilicon-1.0.0-BuildKit.zip)
-includes the Xcode project, native tests and build/signing instructions. It is
-a source/build package, not an already compiled or signed application.
+compilation, signing and camera/call verification remain pending. The Mac source
+folder includes the Xcode project, native tests and build/signing instructions.
+The included [packaging helper](macos/scripts/package_build_kit.py) can create a
+local Apple-silicon build kit ZIP. It is a source/build package, not an already
+compiled or signed application.
 
 ## Window recovery — Quest 1.2.17 (43)
 
