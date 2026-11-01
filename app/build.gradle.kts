@@ -14,8 +14,8 @@ android {
     applicationId = "com.misterslee.alterego.mr"
     minSdk = 34
     targetSdk = 34
-    versionCode = 48
-    versionName = "1.2.22"
+    versionCode = 49
+    versionName = "1.2.23"
     ndk { abiFilters += "arm64-v8a" }
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

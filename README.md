@@ -21,6 +21,12 @@ reference attachments and downloaded Blender source ZIPs are excluded. Original
 character download links are in [the portrait credits](ARTIST_PORTRAITS_LICENSES.md).
 See [third-party notices](THIRD_PARTY_NOTICES.md) for the component licenses.
 
+## Meta upload packaging — Quest 1.2.23 (49)
+
+The manifest now declares the OpenGL ES 3.0 graphics requirement used by the
+renderer. This fixes Meta's missing-graphics-version validation error. The signed
+release build passes all 444 JVM tests; headset testing remains pending.
+
 ## Combined Faces & Avatars — Quest 1.2.22 (48)
 
 One **Faces & Avatars** menu now contains Horizon, Meta sample, preset faces,
