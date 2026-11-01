@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = 1;
+	"classes" = {
+	};
+	"objectVersion" = 56;
+	"objects" = {
+		"9255B87BE7C49E274B9AEA1E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "AlterEgoMacApp.swift";
+			"sourceTree" = "<group>";
+		};
+		"DAE22412F0834939C2D4216C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "AvatarBackground.swift";
+			"sourceTree" = "<group>";
+		};
+		"C339979A049665DFDF2531D5" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "AvatarProtocol.swift";
+			"sourceTree" = "<group>";
+		};
+		"9AE06F25104A2A9219392E00" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "AvatarReceiver.swift";
+			"sourceTree" = "<group>";
+		};
+		"8B24F8DE492E3A94C9E21BF2" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "CameraManager.swift";
+			"sourceTree" = "<group>";
+		};
+		"66F9F964F2D5E375A49EE1EC" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "LanDiscovery.swift";
+			"sourceTree" = "<group>";
+		};
+		"C776FEA0C8348E5E5E2505A3" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "NetworkChoices.swift";
+			"sourceTree" = "<group>";
+		};
+		"CE1D2248CA4BE98AF137D178" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "TransportIdentity.swift";
+			"sourceTree" = "<group>";
+		};
+		"C9130EA6FDB5606D9FBE449A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "WebcamModel.swift";
+			"sourceTree" = "<group>";
+		};
+		"8A92769E67FDC023A3203071" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "WebcamWindow.swift";
+			"sourceTree" = "<group>";
+		};
+		"22B8978893D32EA839A52C5B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "CameraProvider.swift";
+			"sourceTree" = "<group>";
+		};
+		"136B5FB56EEFBE605776F38C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "main.swift";
+			"sourceTree" = "<group>";
+		};
+		"7CB7762D41676B8106F8033A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ProductConfiguration.swift";
+			"sourceTree" = "<group>";
+		};
+		"B024DC7C7D5BA3B49354948A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "SharedFrameStore.swift";
+			"sourceTree" = "<group>";
+		};
+		"7464DF47AAB9247947CAA5F2" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "AvatarBackgroundTests.swift";
+			"sourceTree" = "<group>";
+		};
+		"7B2DF363625FCB9DB5594810" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "AvatarProtocolTests.swift";
+			"sourceTree" = "<group>";
+		};
+		"BD76D43DB907A710DB2C7216" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "TransportCertificateTests.swift";
+			"sourceTree" = "<group>";
+		};
+		"6C36FFE920F24CEDB7CFDBFC" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder.assetcatalog";
+			"path" = "Assets.xcassets";
+			"sourceTree" = "<group>";
+		};
+		"02F3C383319A31FF314BB4E7" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.entitlements";
+			"path" = "App.entitlements";
+			"sourceTree" = "<group>";
+		};
+		"4191547D17679F41B03E9E8C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "AppInfo.plist";
+			"sourceTree" = "<group>";
+		};
+		"E87E071376C1BA8A02B9445E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.entitlements";
+			"path" = "CameraExtension.entitlements";
+			"sourceTree" = "<group>";
+		};
+		"179E160EBA33E65871CD18E1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "CameraExtensionInfo.plist";
+			"sourceTree" = "<group>";
+		};
+		"B926DC16D33775C17D8B17BB" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.application";
+			"path" = "AlterEgo MR Webcam.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"386B498A12F982056FC40D88" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.system-extension";
+			"path" = "com.misterslee.alterego.mac.camera-extension.systemextension";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"B39247BED9EE76068F6340C0" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.cfbundle";
+			"path" = "AlterEgoMacTests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"5151B46607EBC8890D8DFCC2" = {
+			"isa" = "PBXGroup";
+			"name" = "Products";
+			"path" = "";
+			"children" = (
+				"B926DC16D33775C17D8B17BB",
+				"386B498A12F982056FC40D88",
+				"B39247BED9EE76068F6340C0",
+			);
+			"sourceTree" = "<group>";
+		};
+		"9694B95F4FBF087BF05D19FB" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/AppKit.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"12A4B3D6AC4FAB9D19A11202" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/SwiftUI.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"C098C21FBE6D592AC5E723AB" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/Foundation.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"88E6F57BEDC9D34C79FB6744" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/Network.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"0FCE4AC6F91EF4CABB1B10FC" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/Security.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"0E58567BD59BB1D6E1C32CE0" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/CryptoKit.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"ACB5E02845A338C8C9AE8C4F" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/SystemExtensions.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"4EFCD7EDBA2457A4ED05C432" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/SystemConfiguration.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"5A8B9A65A6F1766AA68E42E6" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/CoreMediaIO.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"F27031DFE9CE9368FFA54C1B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/CoreMedia.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"676CC774917361C81E6001DF" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/CoreVideo.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"AC2446436B7AE5A9EC884AD4" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/CoreImage.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"FB95B506FAA940469C15D964" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/CoreGraphics.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"566E8C28AF72A9EE82B30FC0" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/CoreAudio.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"EB39B728C5245B18A16FE690" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/ImageIO.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"D1A7E90B01748CD1F00559D9" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"path" = "System/Library/Frameworks/UniformTypeIdentifiers.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"1C48CE29E4E135EE62951B22" = {
+			"isa" = "PBXGroup";
+			"name" = "App";
+			"path" = "AlterEgoMac";
+			"children" = (
+				"9255B87BE7C49E274B9AEA1E",
+				"DAE22412F0834939C2D4216C",
+				"C339979A049665DFDF2531D5",
+				"9AE06F25104A2A9219392E00",
+				"8B24F8DE492E3A94C9E21BF2",
+				"66F9F964F2D5E375A49EE1EC",
+				"C776FEA0C8348E5E5E2505A3",
+				"CE1D2248CA4BE98AF137D178",
+				"C9130EA6FDB5606D9FBE449A",
+				"8A92769E67FDC023A3203071",
+				"6C36FFE920F24CEDB7CFDBFC",
+			);
+			"sourceTree" = "<group>";
+		};
+		"E7F496E19F132E60F625094C" = {
+			"isa" = "PBXGroup";
+			"name" = "CameraExtension";
+			"path" = "CameraExtension";
+			"children" = (
+				"22B8978893D32EA839A52C5B",
+				"136B5FB56EEFBE605776F38C",
+			);
+			"sourceTree" = "<group>";
+		};
+		"44C7E229889FE9D1BB841A79" = {
+			"isa" = "PBXGroup";
+			"name" = "Shared";
+			"path" = "Shared";
+			"children" = (
+				"7CB7762D41676B8106F8033A",
+				"B024DC7C7D5BA3B49354948A",
+			);
+			"sourceTree" = "<group>";
+		};
+		"156052F04525D0F710673CF0" = {
+			"isa" = "PBXGroup";
+			"name" = "Tests";
+			"path" = "Tests";
+			"children" = (
+				"7464DF47AAB9247947CAA5F2",
+				"7B2DF363625FCB9DB5594810",
+				"BD76D43DB907A710DB2C7216",
+			);
+			"sourceTree" = "<group>";
+		};
+		"C23108729D1809B8323E9806" = {
+			"isa" = "PBXGroup";
+			"name" = "Configuration";
+			"path" = "Configuration";
+			"children" = (
+				"02F3C383319A31FF314BB4E7",
+				"4191547D17679F41B03E9E8C",
+				"E87E071376C1BA8A02B9445E",
+				"179E160EBA33E65871CD18E1",
+			);
+			"sourceTree" = "<group>";
+		};
+		"2D17C89EB2C5B87E8B0EC3B6" = {
+			"isa" = "PBXGroup";
+			"name" = "Frameworks";
+			"path" = "";
+			"children" = (
+				"9694B95F4FBF087BF05D19FB",
+				"12A4B3D6AC4FAB9D19A11202",
+				"C098C21FBE6D592AC5E723AB",
+				"88E6F57BEDC9D34C79FB6744",
+				"0FCE4AC6F91EF4CABB1B10FC",
+				"0E58567BD59BB1D6E1C32CE0",
+				"ACB5E02845A338C8C9AE8C4F",
+				"4EFCD7EDBA2457A4ED05C432",
+				"5A8B9A65A6F1766AA68E42E6",
+				"F27031DFE9CE9368FFA54C1B",
+				"676CC774917361C81E6001DF",
+				"AC2446436B7AE5A9EC884AD4",
+				"FB95B506FAA940469C15D964",
+				"566E8C28AF72A9EE82B30FC0",
+				"EB39B728C5245B18A16FE690",
+				"D1A7E90B01748CD1F00559D9",
+			);
+			"sourceTree" = "<group>";
+		};
+		"514FD8379F3D5B871ED7905C" = {
+			"isa" = "PBXGroup";
+			"name" = "Root";
+			"path" = "";
+			"children" = (
+				"1C48CE29E4E135EE62951B22",
+				"E7F496E19F132E60F625094C",
+				"44C7E229889FE9D1BB841A79",
+				"156052F04525D0F710673CF0",
+				"C23108729D1809B8323E9806",
+				"2D17C89EB2C5B87E8B0EC3B6",
+				"5151B46607EBC8890D8DFCC2",
+			);
+			"sourceTree" = "<group>";
+		};
+		"91089B0801B986484E6EE4B9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9255B87BE7C49E274B9AEA1E";
+		};
+		"F57FD5E150F78CA1EA1761D1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DAE22412F0834939C2D4216C";
+		};
+		"201C5A7200EE71F8F6C19AEB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C339979A049665DFDF2531D5";
+		};
+		"6A4F3243F62E4ACF278F12C4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9AE06F25104A2A9219392E00";
+		};
+		"F7BBA5B5B94C43E12796E2B6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8B24F8DE492E3A94C9E21BF2";
+		};
+		"3A0C71250C0E1F7DDAB7BD7B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "66F9F964F2D5E375A49EE1EC";
+		};
+		"372026B65D792F58AC6E8643" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C776FEA0C8348E5E5E2505A3";
+		};
+		"DCCE662A03F58D885C410D78" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CE1D2248CA4BE98AF137D178";
+		};
+		"581E9F7739C29EB761DCF8FA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C9130EA6FDB5606D9FBE449A";
+		};
+		"8BE53DD467A3A15E06549BC1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8A92769E67FDC023A3203071";
+		};
+		"336C22C5E437402421EE5735" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7CB7762D41676B8106F8033A";
+		};
+		"A8F7D59959DB69DFD64B58C9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B024DC7C7D5BA3B49354948A";
+		};
+		"FDBEB636160CC4A63F780304" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"91089B0801B986484E6EE4B9",
+				"F57FD5E150F78CA1EA1761D1",
+				"201C5A7200EE71F8F6C19AEB",
+				"6A4F3243F62E4ACF278F12C4",
+				"F7BBA5B5B94C43E12796E2B6",
+				"3A0C71250C0E1F7DDAB7BD7B",
+				"372026B65D792F58AC6E8643",
+				"DCCE662A03F58D885C410D78",
+				"581E9F7739C29EB761DCF8FA",
+				"8BE53DD467A3A15E06549BC1",
+				"336C22C5E437402421EE5735",
+				"A8F7D59959DB69DFD64B58C9",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"EC32CF11423EF925F09F131F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "22B8978893D32EA839A52C5B";
+		};
+		"400C8DDBDBB893AD268422D7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "136B5FB56EEFBE605776F38C";
+		};
+		"E411973185D46F13BC525DF0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7CB7762D41676B8106F8033A";
+		};
+		"E12CB8AFE729B0A7E92ABA4B" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"EC32CF11423EF925F09F131F",
+				"400C8DDBDBB893AD268422D7",
+				"E411973185D46F13BC525DF0",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"2EF99CBCCC6D042CC6AA2D39" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7464DF47AAB9247947CAA5F2";
+		};
+		"FF28B77FD567BDF06440B2AA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7B2DF363625FCB9DB5594810";
+		};
+		"4F422C83BE8A81055F303D67" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "BD76D43DB907A710DB2C7216";
+		};
+		"4AC6D2D3EB3B918C36F7C620" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"2EF99CBCCC6D042CC6AA2D39",
+				"FF28B77FD567BDF06440B2AA",
+				"4F422C83BE8A81055F303D67",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"CF1ADDB81D19914DFBFC1782" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9694B95F4FBF087BF05D19FB";
+		};
+		"E76BB71D691429D8A5336BB6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "12A4B3D6AC4FAB9D19A11202";
+		};
+		"7026D6F6C4864F5548D6E2F3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C098C21FBE6D592AC5E723AB";
+		};
+		"AB004E457440818D1938418D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "88E6F57BEDC9D34C79FB6744";
+		};
+		"C9B33E146BF4DEF2B8A8F4B1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0FCE4AC6F91EF4CABB1B10FC";
+		};
+		"3E5B77C7745F5D6B9F112847" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0E58567BD59BB1D6E1C32CE0";
+		};
+		"85EE5809EE153A3C38D4A6D3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "ACB5E02845A338C8C9AE8C4F";
+		};
+		"779CC31F8E2330BB7158C628" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "4EFCD7EDBA2457A4ED05C432";
+		};
+		"0E688E2889FC007B273FC638" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5A8B9A65A6F1766AA68E42E6";
+		};
+		"2EAD211049A0A5F9F7607725" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F27031DFE9CE9368FFA54C1B";
+		};
+		"8CCC27B4FD2191524BB95932" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "676CC774917361C81E6001DF";
+		};
+		"55967A08E1A5DC92FD28B61A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AC2446436B7AE5A9EC884AD4";
+		};
+		"1F5527A670BD61B3E1102D2E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FB95B506FAA940469C15D964";
+		};
+		"33FCD1A7EB6163FDE2C2B006" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "566E8C28AF72A9EE82B30FC0";
+		};
+		"C5A776C9E7ACAC6EAFCBE32E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "EB39B728C5245B18A16FE690";
+		};
+		"BDFBC804FE9BFF7886191513" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D1A7E90B01748CD1F00559D9";
+		};
+		"FA3C5073B463D1BB4154A72F" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"CF1ADDB81D19914DFBFC1782",
+				"E76BB71D691429D8A5336BB6",
+				"7026D6F6C4864F5548D6E2F3",
+				"AB004E457440818D1938418D",
+				"C9B33E146BF4DEF2B8A8F4B1",
+				"3E5B77C7745F5D6B9F112847",
+				"85EE5809EE153A3C38D4A6D3",
+				"779CC31F8E2330BB7158C628",
+				"0E688E2889FC007B273FC638",
+				"2EAD211049A0A5F9F7607725",
+				"8CCC27B4FD2191524BB95932",
+				"55967A08E1A5DC92FD28B61A",
+				"1F5527A670BD61B3E1102D2E",
+				"33FCD1A7EB6163FDE2C2B006",
+				"C5A776C9E7ACAC6EAFCBE32E",
+				"BDFBC804FE9BFF7886191513",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"FBCB07441B0209A502AD8AA6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C098C21FBE6D592AC5E723AB";
+		};
+		"09BE9327B00969A85AB6F7C0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5A8B9A65A6F1766AA68E42E6";
+		};
+		"1CB18C6A881BBF027AC0B248" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F27031DFE9CE9368FFA54C1B";
+		};
+		"D48AE8114970B3595B5D0C32" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "676CC774917361C81E6001DF";
+		};
+		"7AAAF3F74B77B40655D45662" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AC2446436B7AE5A9EC884AD4";
+		};
+		"C93EC5F3D36D12BCB2486A13" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FB95B506FAA940469C15D964";
+		};
+		"709A2FDA9BF61D5BEC353703" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "566E8C28AF72A9EE82B30FC0";
+		};
+		"F7B6DD8ADBDFE52EEBC1E58B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0FCE4AC6F91EF4CABB1B10FC";
+		};
+		"3EAE50E1E27D133587AFF6F6" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"FBCB07441B0209A502AD8AA6",
+				"09BE9327B00969A85AB6F7C0",
+				"1CB18C6A881BBF027AC0B248",
+				"D48AE8114970B3595B5D0C32",
+				"7AAAF3F74B77B40655D45662",
+				"C93EC5F3D36D12BCB2486A13",
+				"709A2FDA9BF61D5BEC353703",
+				"F7B6DD8ADBDFE52EEBC1E58B",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"6AEA91B3ED7C8BDAF5C2FDA9" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"E03EA9DB3FA61DF271C3147C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6C36FFE920F24CEDB7CFDBFC";
+		};
+		"2BF5DE592226D457D3BCDAC0" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"E03EA9DB3FA61DF271C3147C",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"A19BFC5600279146D99705EE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "386B498A12F982056FC40D88";
+			"settings" = {
+				"ATTRIBUTES" = (
+					"CodeSignOnCopy",
+					"RemoveHeadersOnCopy",
+				);
+			};
+		};
+		"6C73EA520D04B12BCBCA1861" = {
+			"isa" = "PBXCopyFilesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"A19BFC5600279146D99705EE",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+			"dstPath" = "$(CONTENTS_FOLDER_PATH)/Library/SystemExtensions";
+			"dstSubfolderSpec" = 16;
+			"name" = "Embed System Extensions";
+		};
+		"59882E9833F169D18FAA95C7" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "98F54143AB4E86B28C3AFEE0";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "8C3FDA28453C42FBA446FDCE";
+			"remoteInfo" = "AlterEgoCamera";
+		};
+		"7245BC36CB5F32208E1A0C35" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "8C3FDA28453C42FBA446FDCE";
+			"targetProxy" = "59882E9833F169D18FAA95C7";
+		};
+		"D36D33020B6BB89396BD1B34" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "98F54143AB4E86B28C3AFEE0";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "29C7B681C8D62CBAC94D51C0";
+			"remoteInfo" = "AlterEgoMac";
+		};
+		"D2F9C6ACC3CFD758A2AF1D96" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "29C7B681C8D62CBAC94D51C0";
+			"targetProxy" = "D36D33020B6BB89396BD1B34";
+		};
+		"FE1E0DF3268F07AF5A0E03B7" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SDKROOT" = "macosx";
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SWIFT_VERSION" = "5.0";
+				"ARCHS" = "arm64";
+				"MARKETING_VERSION" = "1.0.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ENABLE_TESTABILITY" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"BFF1AFB61F5FCB413581E627" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SDKROOT" = "macosx";
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SWIFT_VERSION" = "5.0";
+				"ARCHS" = "arm64";
+				"MARKETING_VERSION" = "1.0.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"SWIFT_STRICT_CONCURRENCY" = "minimal";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"12D04D787E90C9B967248BFD" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"FE1E0DF3268F07AF5A0E03B7",
+				"BFF1AFB61F5FCB413581E627",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"B056BF6F9BA868EA7E75F83B" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "com.misterslee.alterego.mac.camera-extension";
+				"PRODUCT_MODULE_NAME" = "AlterEgoCamera";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.misterslee.alterego.mac.camera-extension";
+				"INFOPLIST_FILE" = "Configuration/CameraExtensionInfo.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "Configuration/CameraExtension.entitlements";
+				"SKIP_INSTALL" = "YES";
+				"APPLICATION_EXTENSION_API_ONLY" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ENABLE_TESTABILITY" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"77F20BE6080CE00401153D62" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "com.misterslee.alterego.mac.camera-extension";
+				"PRODUCT_MODULE_NAME" = "AlterEgoCamera";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.misterslee.alterego.mac.camera-extension";
+				"INFOPLIST_FILE" = "Configuration/CameraExtensionInfo.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "Configuration/CameraExtension.entitlements";
+				"SKIP_INSTALL" = "YES";
+				"APPLICATION_EXTENSION_API_ONLY" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"DB992BC56EC92ABCB75026C7" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"B056BF6F9BA868EA7E75F83B",
+				"77F20BE6080CE00401153D62",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"8C3FDA28453C42FBA446FDCE" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "DB992BC56EC92ABCB75026C7";
+			"buildPhases" = (
+				"E12CB8AFE729B0A7E92ABA4B",
+				"3EAE50E1E27D133587AFF6F6",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "AlterEgoCamera";
+			"productName" = "com.misterslee.alterego.mac.camera-extension";
+			"productReference" = "386B498A12F982056FC40D88";
+			"productType" = "com.apple.product-type.system-extension";
+		};
+		"B70392B103E713C7D2781A81" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "AlterEgo MR Webcam";
+				"PRODUCT_MODULE_NAME" = "AlterEgoMac";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.misterslee.alterego.mac";
+				"INFOPLIST_FILE" = "Configuration/AppInfo.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "Configuration/App.entitlements";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"COMBINE_HIDPI_IMAGES" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ENABLE_TESTABILITY" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"18FD78E63428209FE49F0DE7" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "AlterEgo MR Webcam";
+				"PRODUCT_MODULE_NAME" = "AlterEgoMac";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.misterslee.alterego.mac";
+				"INFOPLIST_FILE" = "Configuration/AppInfo.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "Configuration/App.entitlements";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"COMBINE_HIDPI_IMAGES" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"32995943DE67267A65D32CA9" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"B70392B103E713C7D2781A81",
+				"18FD78E63428209FE49F0DE7",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"29C7B681C8D62CBAC94D51C0" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "32995943DE67267A65D32CA9";
+			"buildPhases" = (
+				"FDBEB636160CC4A63F780304",
+				"FA3C5073B463D1BB4154A72F",
+				"2BF5DE592226D457D3BCDAC0",
+				"6C73EA520D04B12BCBCA1861",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"7245BC36CB5F32208E1A0C35",
+			);
+			"name" = "AlterEgoMac";
+			"productName" = "AlterEgo MR Webcam";
+			"productReference" = "B926DC16D33775C17D8B17BB";
+			"productType" = "com.apple.product-type.application";
+		};
+		"40B8DA3996BE9387A2AE72C4" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "AlterEgoMacTests";
+				"PRODUCT_MODULE_NAME" = "AlterEgoMacTests";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.misterslee.alterego.mac.tests";
+				"ENABLE_TESTING_SEARCH_PATHS" = "YES";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"BUNDLE_LOADER" = "$(TEST_HOST)";
+				"TEST_HOST" = "$(BUILT_PRODUCTS_DIR)/AlterEgo MR Webcam.app/Contents/MacOS/AlterEgo MR Webcam";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ENABLE_TESTABILITY" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"572F78FE885AA5E3247F22CE" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "AlterEgoMacTests";
+				"PRODUCT_MODULE_NAME" = "AlterEgoMacTests";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.misterslee.alterego.mac.tests";
+				"ENABLE_TESTING_SEARCH_PATHS" = "YES";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"BUNDLE_LOADER" = "$(TEST_HOST)";
+				"TEST_HOST" = "$(BUILT_PRODUCTS_DIR)/AlterEgo MR Webcam.app/Contents/MacOS/AlterEgo MR Webcam";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"6137A6F58D979B3DA500C290" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"40B8DA3996BE9387A2AE72C4",
+				"572F78FE885AA5E3247F22CE",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"7EC8F98B7A265120217712DE" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "6137A6F58D979B3DA500C290";
+			"buildPhases" = (
+				"4AC6D2D3EB3B918C36F7C620",
+				"6AEA91B3ED7C8BDAF5C2FDA9",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"D2F9C6ACC3CFD758A2AF1D96",
+			);
+			"name" = "AlterEgoMacTests";
+			"productName" = "AlterEgoMacTests";
+			"productReference" = "B39247BED9EE76068F6340C0";
+			"productType" = "com.apple.product-type.bundle.unit-test";
+		};
+		"98F54143AB4E86B28C3AFEE0" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "1600";
+				"TargetAttributes" = {
+					"29C7B681C8D62CBAC94D51C0" = {
+						"CreatedOnToolsVersion" = "16.0";
+					};
+					"8C3FDA28453C42FBA446FDCE" = {
+						"CreatedOnToolsVersion" = "16.0";
+					};
+					"7EC8F98B7A265120217712DE" = {
+						"CreatedOnToolsVersion" = "16.0";
+						"TestTargetID" = "29C7B681C8D62CBAC94D51C0";
+					};
+				};
+			};
+			"buildConfigurationList" = "12D04D787E90C9B967248BFD";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "en";
+			"hasScannedForEncodings" = 0;
+			"knownRegions" = (
+				"en",
+				"Base",
+			);
+			"mainGroup" = "514FD8379F3D5B871ED7905C";
+			"productRefGroup" = "5151B46607EBC8890D8DFCC2";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = (
+				"29C7B681C8D62CBAC94D51C0",
+				"8C3FDA28453C42FBA446FDCE",
+				"7EC8F98B7A265120217712DE",
+			);
+		};
+	};
+	"rootObject" = "98F54143AB4E86B28C3AFEE0";
+}

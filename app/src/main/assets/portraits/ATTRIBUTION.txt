@@ -1,0 +1,32 @@
+Rain and Snow character assets
+=============================
+
+Rain Rig © Blender Foundation | https://studio.blender.org
+Snow Rig © Blender Foundation | https://studio.blender.org
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Full license text is included alongside this notice as CC-BY-4.0.txt.
+The license includes a disclaimer of warranties and limitation of liability.
+
+Original character pages:
+Rain: https://studio.blender.org/characters/rain/v3/
+Snow: https://studio.blender.org/characters/snow/v4/
+
+Source archive versions:
+Rain-v3.3.zip (contains Rain v3.3/rain_v3.2.blend)
+Snow_v4.2.zip (contains Snow/snow_v4.2.blend)
+
+Changes for AlterEgo MR:
+The original full-body Blender characters are adapted to head portraits.
+Geometry is evaluated, optimized, triangulated and converted to the app's
+coordinate system. Materials are converted to opaque vertex colors and surface
+finishes. Sampled facial-rig poses are converted into expression and gaze morphs.
+The app also supplies optional palette changes and hairstyle visibility.
+The adaptations are distinct from the original Blender production rigs.
+
+Rain is the base of Rain Portrait and Holographic Matrix Human.
+Snow is the base of Snow Portrait, Classical Golden Bust and Cyber-Synth Human.
+The original rigs, artwork and adapted character data retain their CC BY 4.0
+attribution. No endorsement by Blender Foundation or Blender Studio is implied.
+This notice does not change the licenses of the application's other components.

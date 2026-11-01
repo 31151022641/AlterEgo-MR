@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(alterego_eye_gaze LANGUAGES CXX)
+add_library(alterego_eye_gaze SHARED EyeGazeBridge.cpp WearerTrackingBridge.cpp HorizonAccountBridge.cpp HorizonAvatarRenderer.cpp AvatarPixels.cpp)
+target_compile_features(alterego_eye_gaze PRIVATE cxx_std_17)
+target_compile_definitions(alterego_eye_gaze PRIVATE XR_NO_PROTOTYPES XR_USE_TIMESPEC)
+target_include_directories(alterego_eye_gaze PRIVATE third_party)
+target_link_libraries(alterego_eye_gaze PRIVATE log dl EGL GLESv3 jnigraphics)
+target_compile_options(alterego_eye_gaze PRIVATE -Wall -Wextra -Werror=return-type)

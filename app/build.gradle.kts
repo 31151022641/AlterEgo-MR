@@ -8,35 +8,59 @@ plugins {
 android {
   namespace = "com.oculus.camerademo"
   compileSdk = 34
+  ndkVersion = "27.2.12479018"
 
   defaultConfig {
-    applicationId = "com.oculus.camerademo"
+    applicationId = "com.misterslee.alterego.mr"
     minSdk = 34
     targetSdk = 34
-    versionCode = 1
-    versionName = "1.0"
+    versionCode = 48
+    versionName = "1.2.22"
+    ndk { abiFilters += "arm64-v8a" }
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     vectorDrawables { useSupportLibrary = true }
   }
 
+  signingConfigs {
+    create("alteregoRelease") {
+      storeFile = rootProject.file("signing/alterego-release.p12")
+      storePassword = System.getenv("ALTEREGO_SIGN_PASSWORD")
+      keyAlias = "alterego"
+      keyPassword = System.getenv("ALTEREGO_SIGN_PASSWORD")
+      enableV1Signing = true
+      enableV2Signing = true
+    }
+  }
   buildTypes {
     release {
+      signingConfig = signingConfigs.getByName("alteregoRelease")
+      isDebuggable = false
       isMinifyEnabled = false
       proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
     }
   }
   compileOptions {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
   }
-  kotlinOptions { jvmTarget = "1.8" }
+  kotlinOptions {
+    jvmTarget = "17"
+    freeCompilerArgs += listOf("-Xskip-metadata-version-check")
+  }
   buildFeatures { compose = true }
+  externalNativeBuild {
+    cmake {
+      path = file("src/main/cpp/CMakeLists.txt")
+      version = "3.22.1"
+    }
+  }
   composeOptions { kotlinCompilerExtensionVersion = "1.5.1" }
   packaging { resources { excludes += "/META-INF/{AL2.0,LGPL2.1}" } }
 }
 
 dependencies {
+  implementation(libs.mediapipe.tasks.vision)
   implementation(libs.androidx.core.ktx)
   implementation(libs.androidx.lifecycle.runtime.ktx)
   implementation(libs.androidx.activity.compose)
@@ -47,6 +71,11 @@ dependencies {
   implementation(libs.androidx.material3)
   implementation(libs.activity)
   implementation(libs.androidx.fragment.ktx)
+  val metaSpatialSdkVersion = "0.14.0"
+  implementation("com.meta.spatial:meta-spatial-sdk:$metaSpatialSdkVersion")
+  implementation("com.meta.spatial:meta-spatial-sdk-toolkit:$metaSpatialSdkVersion")
+  implementation("com.meta.spatial:meta-spatial-sdk-vr:$metaSpatialSdkVersion")
+  implementation("com.meta.spatial:meta-spatial-sdk-compose:$metaSpatialSdkVersion")
   testImplementation(libs.junit)
   androidTestImplementation(libs.androidx.junit)
   androidTestImplementation(libs.androidx.espresso.core)

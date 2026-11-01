@@ -1,45 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.meta.camera_samples.camerademoapp">
+    xmlns:metavr="http://schemas.meta.com/metavr-sdk">
+
+    <metavr:uses-metavr-sdk metavr:minSdkVersion="69" metavr:targetSdkVersion="69" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.oculus.permission.BODY_TRACKING" />
+    <uses-permission android:name="com.oculus.permission.FACE_TRACKING" />
+    <uses-feature android:name="com.oculus.software.body_tracking" android:required="false" />
+    <uses-feature android:name="oculus.software.face_tracking" android:required="false" />
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="horizonos.permission.AVATAR_CAMERA" />
     <uses-permission android:name="horizonos.permission.HEADSET_CAMERA" />
 
-    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
     <uses-feature android:name="android.hardware.camera2.full"
-        android:required="true"
+        android:required="false"
         />
     <uses-feature
         android:name="android.hardware.vr.headtracking"
+        android:version="1"
         android:required="true"
         />
-    <uses-feature android:name="com.oculus.feature.PASSTHROUGH" />
-    <meta-data
-        android:name="com.oculus.supportedDevices"
-        android:value="quest3|quest3s"
+    <uses-feature
+        android:name="com.oculus.feature.PASSTHROUGH"
+        android:required="true"
         />
+    <uses-feature android:name="oculus.software.handtracking" android:required="false" />
+    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+    <uses-feature android:name="oculus.software.eye_tracking" android:required="false" />
+    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+    <uses-permission android:name="horizonos.permission.EYE_TRACKING" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
         tools:targetApi="31">
+
+        <meta-data android:name="com.oculus.supportedDevices" android:value="questpro|quest3|quest3s" />
+        <meta-data android:name="com.oculus.sdk.APP_ID" android:value="@string/meta_app_id" />
+        <!-- Application metadata must be inside application to reach the runtime. -->
+        <meta-data android:name="com.oculus.handtracking.version" android:value="V2.0" />
+        <meta-data android:name="com.oculus.vr.focusaware" android:value="true" />
+        <meta-data android:name="com.oculus.environment" android:value="passthrough" />
+        <meta-data android:name="com.oculus.mr.passthrough" android:value="required" />
+        <meta-data android:name="com.oculus.system_splash_screen.type" android:value="passthrough" />
+
+        <activity android:name=".MirrorActivity" android:exported="true"
+            android:launchMode="singleTask" android:taskAffinity="${applicationId}.mirror"
+            android:screenOrientation="landscape" android:theme="@android:style/Theme.Material.NoActionBar"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard|navigation|uiMode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="com.oculus.intent.category.VR_HOME_LAUNCHER" />
+                <category android:name="com.oculus.intent.category.2D" />
+                <category android:name="com.oculus.intent.category.OVERLAY_LAUNCHER" />
+            </intent-filter>
+            <layout android:defaultWidth="1000dp" android:defaultHeight="760dp" android:minWidth="640dp" android:minHeight="480dp" />
+        </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard|navigation|uiMode"
             android:label="@string/app_name"
-            android:theme="@style/Theme.MyApplication">
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="com.oculus.intent.category.VR" />
             </intent-filter>
+            <meta-data
+                android:name="com.oculus.vr.mode"
+                android:value="true"
+                />
+            <meta-data
+                android:name="com.oculus.mr.passthrough"
+                android:value="required"
+                />
+            <meta-data
+                android:name="com.oculus.environment"
+                android:value="passthrough"
+                />
         </activity>
     </application>
 
