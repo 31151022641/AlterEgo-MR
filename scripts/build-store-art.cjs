@@ -19,6 +19,9 @@ const layouts = [
     textX: 1245, textY: 508, font: 182, anchor: 'start' },
   { name: 'mini', width: 1080, height: 360, tile: 180, x: 175, y: 90,
     textX: 415, textY: 204, font: 76, anchor: 'start' },
+  // Compact central lockup survives Meta's landscape, portrait and hero crops.
+  { name: 'universal', width: 3000, height: 3000, tile: 500, x: 750, y: 1250,
+    textX: 1390, textY: 1555, font: 160, anchor: 'start' },
 ];
 
 function coverSvg(layout, markUri) {
@@ -87,7 +90,7 @@ async function main() {
     cells.push({ input: cell, left: left + 20, top: top + 10 });
     cells.push({ input: label, left, top: top + cellH - 40 });
   }
-  await sharp({ create: { width: cellW * 2, height: cellH * 3, channels: 3, background: '#D8E3E6' } })
+  await sharp({ create: { width: cellW * 2, height: cellH * Math.ceil(files.length / 2), channels: 3, background: '#D8E3E6' } })
     .composite(cells).removeAlpha().png().toFile(path.join(output, 'review-sheet.png'));
 }
 

@@ -12,6 +12,7 @@ identify the app; they are not screenshots or representations of in-app UI.
 | `cover-portrait-1008x1440.png` | 1008 × 1440 | Portrait cover |
 | `hero-3000x900.png` | 3000 × 900 | Hero cover |
 | `mini-1080x360.png` | 1080 × 360 | Mini landscape |
+| `universal-3000x3000.png` | 3000 × 3000 | Universal basic asset source for Meta's automatic cover generation |
 
 All upload PNGs are opaque 24-bit RGB. Title text is kept away from the top and
 bottom 20% of each cover. SVG layout sources are included, and `review-sheet.png`
